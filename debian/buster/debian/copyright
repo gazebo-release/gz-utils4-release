@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignutils0
+Upstream-Name: ignutils
 Upstream-Contact: gazebo-list@gazebosim.org
 Source: https://github.com/ignitionrobotics/ign-utils
 

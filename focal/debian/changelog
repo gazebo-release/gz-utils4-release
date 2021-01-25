@@ -1,4 +1,4 @@
-ignition-utils0 (0.1.0-1~focal) focal; urgency=medium
+ignition-utils (1.0.0-1~focal) focal; urgency=medium
 
   * Stub to be removed after first entry
 

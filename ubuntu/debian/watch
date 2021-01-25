@@ -1,2 +1,2 @@
 version=3
-http://gazebosim.org/distributions/ign-utils0/releases/ignition-utils0-(\d\.\d\.\d)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+http://gazebosim.org/distributions/ign-utils/releases/ignition-utils-(\d\.\d\.\d)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))

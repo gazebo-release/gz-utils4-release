@@ -1,5 +1,5 @@
 usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-utils0*/*
+usr/lib/*/cmake/ignition-utils*/*
 usr/share/ignition/*/*

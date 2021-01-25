@@ -1,4 +1,4 @@
-ignition-utils0 (0.1.0-1~buster) buster; urgency=medium
+ignition-utils (1.0.0-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
 

@@ -1,4 +1,4 @@
-Source: ignition-utils0
+Source: ignition-utils
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -7,11 +7,11 @@ Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
                libignition-cmake2-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ign-utils0-release
-Vcs-Git: https://github.com/ignitionrobotics/ign-utils0-release
+Vcs-Browser: https://github.com/ignitionrobotics/ign-utils-release
+Vcs-Git: https://github.com/ignitionrobotics/ign-utils-release
 Homepage: https://github.com/ignitionrobotics/ign-utils
 
-Package: libignition-utils0
+Package: libignition-utils
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -19,21 +19,21 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Utils Library - Shared library
 
-Package: libignition-utils0-dev
+Package: libignition-utils-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-utils0 (= ${binary:Version}),
+Depends: libignition-utils (= ${binary:Version}),
          libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Utils Library - Development files
 
-Package: libignition-utils0-dbg
+Package: libignition-utils-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libignition-utils0 (= ${binary:Version}),
+     libignition-utils (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Utils Library - Debugging symbols
