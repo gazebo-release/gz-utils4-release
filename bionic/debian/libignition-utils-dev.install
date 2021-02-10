@@ -1,5 +1,1 @@
-usr/include/*
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-utils*/*
-usr/share/ignition/*/*
+../../ubuntu/debian/libignition-utils-dev.install
