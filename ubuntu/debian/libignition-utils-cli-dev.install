@@ -1,0 +1,4 @@
+usr/include/ignition/*/ignition/utils/cli/*
+usr/include/ignition/*/ignition/utils/cli.hh
+usr/lib/*/pkgconfig/ignition-utils?-cli.pc
+usr/lib/*/cmake/ignition-utils?-cli/*
