@@ -1,6 +1,6 @@
-ignition-utils1 (0.9.9-1~focal) focal; urgency=medium
+ignition-utils1 (1.0.0~pre1-1~focal) focal; urgency=medium
 
-  * Stub to be removed after first entry
+  * ignition-utils1 1.0.0~pre1-1 release
 
- -- Steve Peters <scpeters@openrobotics.org>  Thu, 21 Nov 2019 18:08:34 -0800
+ -- Steve Peters <scpeters@openrobotics.org>  Thu, 25 Feb 2021 11:42:26 -0800
 
