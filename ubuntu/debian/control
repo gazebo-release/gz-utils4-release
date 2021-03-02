@@ -17,6 +17,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
+Replaces: libignition-utils (<< 1.0.0)
+Provides: libignition-utils
 Description: Ignition Robotics Utils Library - Shared library
 
 Package: libignition-utils1-dev
@@ -26,6 +28,8 @@ Depends: libignition-utils1 (= ${binary:Version}),
          libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
+Replaces: libignition-utils-dev (<< 1.0.0)
+Breaks: libignition-utils-dev (<< 1.0.0)
 Description: Ignition Robotics Utils Library - Development files
 
 Package: libignition-utils-dev
