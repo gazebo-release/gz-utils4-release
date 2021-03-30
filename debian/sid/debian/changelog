@@ -1,3 +1,9 @@
+ignition-utils1 (1.0.0-1~sid) sid; urgency=medium
+
+  * ignition-utils1 1.0.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 30 Mar 2021 14:49:29 -0700
+
 ignition-utils1 (1.0.0~pre2-1~sid) sid; urgency=medium
 
   * ignition-utils1 1.0.0~pre2-1 release
