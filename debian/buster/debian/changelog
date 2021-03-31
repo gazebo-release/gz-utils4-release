@@ -1,3 +1,9 @@
+ignition-utils1 (1.0.0-2~buster) buster; urgency=medium
+
+  * ignition-utils1 1.0.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 31 Mar 2021 13:15:13 +0200
+
 ignition-utils1 (1.0.0-1~buster) buster; urgency=medium
 
   * ignition-utils1 1.0.0-1 release
