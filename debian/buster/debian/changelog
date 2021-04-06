@@ -1,23 +1,6 @@
-ignition-utils1 (1.0.0-2~buster) buster; urgency=medium
+ignition-utils12 (1.999.999-1~buster) buster; urgency=medium
 
-  * ignition-utils1 1.0.0-2 release
+  * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 31 Mar 2021 13:15:13 +0200
+ -- Louise Poubel <louise@openrobotics.org>  Mon, 05 Apr 2021 18:59:59 -0700
 
-ignition-utils1 (1.0.0-1~buster) buster; urgency=medium
-
-  * ignition-utils1 1.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Tue, 30 Mar 2021 14:49:29 -0700
-
-ignition-utils1 (1.0.0~pre2-1~buster) buster; urgency=medium
-
-  * ignition-utils1 1.0.0~pre2-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Mon, 22 Mar 2021 12:27:34 -0700
-
-ignition-utils1 (1.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-utils1 1.0.0~pre1-1 release
-
- -- Steve Peters <scpeters@openrobotics.org>  Thu, 25 Feb 2021 11:42:26 -0800
