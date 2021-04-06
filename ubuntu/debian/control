@@ -1,4 +1,4 @@
-Source: ignition-utils12
+Source: ignition-utils2
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/ignitionrobotics/ign-utils-release
 Vcs-Git: https://github.com/ignitionrobotics/ign-utils-release
 Homepage: https://github.com/ignitionrobotics/ign-utils
 
-Package: libignition-utils12
+Package: libignition-utils2
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -21,10 +21,10 @@ Replaces: libignition-utils (<< 1.0.0)
 Provides: libignition-utils
 Description: Ignition Robotics Utils Library - Shared library
 
-Package: libignition-utils12-dev
+Package: libignition-utils2-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-utils12 (= ${binary:Version}),
+Depends: libignition-utils2 (= ${binary:Version}),
          libignition-cmake2-dev (>= 2.7.0~pre1)
          ${misc:Depends}
 Multi-Arch: same
@@ -33,27 +33,27 @@ Breaks: libignition-utils-dev (<< 1.0.0)
 Description: Ignition Robotics Utils Library - Development files
 
 Package: libignition-utils-dev
-Depends: libignition-utils12-dev, ${misc:Depends}
+Depends: libignition-utils2-dev, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
 Description: transitional package
   This is a transitional package. It can safely be removed.
 
-Package: libignition-utils12-cli-dev
+Package: libignition-utils2-cli-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-utils12-dev (= ${binary:Version}),
+Depends: libignition-utils2-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Utils Library - CLI Development files
 
-Package: libignition-utils12-dbg
+Package: libignition-utils2-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libignition-utils12 (= ${binary:Version}),
+     libignition-utils2 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Utils Library - Debugging symbols
