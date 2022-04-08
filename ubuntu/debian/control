@@ -7,8 +7,8 @@ Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
                libignition-cmake3-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ign-utils-release
-Vcs-Git: https://github.com/ignitionrobotics/ign-utils-release
+Vcs-Browser: https://github.com/ignitionrobotics/ign-utils2-release
+Vcs-Git: https://github.com/ignitionrobotics/ign-utils2-release
 Homepage: https://github.com/ignitionrobotics/ign-utils
 
 Package: libignition-utils2
