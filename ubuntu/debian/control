@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
-               libignition-cmake3-dev (>= 2.7.0)
+               libignition-cmake3-dev
 Vcs-Browser: https://github.com/ignitionrobotics/ign-utils-release
 Vcs-Git: https://github.com/ignitionrobotics/ign-utils-release
 Homepage: https://github.com/ignitionrobotics/ign-utils
@@ -25,7 +25,7 @@ Package: libignition-utils2-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-utils2 (= ${binary:Version}),
-         libignition-cmake3-dev (>= 2.7.0),
+         libignition-cmake3-dev,
          ${misc:Depends}
 Multi-Arch: same
 Replaces: libignition-utils-dev (<< 1.0.0)
