@@ -7,9 +7,9 @@ Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
                libignition-cmake3-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ign-utils2-release
-Vcs-Git: https://github.com/ignitionrobotics/ign-utils2-release
-Homepage: https://github.com/ignitionrobotics/ign-utils
+Vcs-Browser: https://github.com/gazebosim/gz-utils2-release
+Vcs-Git: https://github.com/gazebosim/gz-utils2-release
+Homepage: https://github.com/gazebosim/gz-utils
 
 Package: libignition-utils2
 Architecture: any
@@ -19,7 +19,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Replaces: libignition-utils (<< 1.0.0)
 Provides: libignition-utils
-Description: Ignition Robotics Utils Library - Shared library
+Description: Gazebo Utils Library - Shared library
 
 Package: libignition-utils2-dev
 Architecture: any
@@ -30,7 +30,7 @@ Depends: libignition-utils2 (= ${binary:Version}),
 Multi-Arch: same
 Replaces: libignition-utils-dev (<< 1.0.0)
 Breaks: libignition-utils-dev (<< 1.0.0)
-Description: Ignition Robotics Utils Library - Development files
+Description: Gazebo Utils Library - Development files
 
 Package: libignition-utils-dev
 Depends: libignition-utils2-dev, ${misc:Depends}
@@ -46,7 +46,7 @@ Section: libdevel
 Depends: libignition-utils2-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Utils Library - CLI Development files
+Description: Gazebo Utils Library - CLI Development files
 
 Package: libignition-utils2-dbg
 Architecture: any
@@ -56,4 +56,4 @@ Depends:
      libignition-utils2 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Utils Library - Debugging symbols
+Description: Gazebo Utils Library - Debugging symbols

@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignutils
+Upstream-Name: gz-utils
 Upstream-Contact: gazebo-list@gazebosim.org
-Source: https://github.com/ignitionrobotics/ign-utils
+Source: https://github.com/gazebosim/gz-utils
 
 Files: *
 Copyright: 2014-2015 Open Source Robotics Foundation
