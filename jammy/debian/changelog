@@ -1,3 +1,9 @@
+gz-utils2 (2.0.0-1~jammy) jammy; urgency=medium
+
+  * gz-utils2 2.0.0-1 release
+
+ -- Nate Koenig <nate@openrobotics.org>  Thu, 22 Aug 2022 10:22:15 -0700
+
 gz-utils2 (2.0.0~pre2-1~jammy) jammy; urgency=medium
 
   * gz-utils2 2.0.0~pre2-1 release
