@@ -1,91 +1,47 @@
-Source: gz-utils2
+Source: gz-utils3
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: extra
 Build-Depends: cmake,
-               debhelper (>= 7.0.50~),
+               debhelper (>= 13),
                doxygen,
-               libgz-cmake3-dev
-Vcs-Browser: https://github.com/gazebosim/gz-utils2-release
-Vcs-Git: https://github.com/gazebosim/gz-utils2-release
+               libgz-cmake4-dev
+Vcs-Browser: https://github.com/gazebosim/gz-utils3-release
+Vcs-Git: https://github.com/gazebosim/gz-utils3-release
 Homepage: https://github.com/gazebosim/gz-utils
 
-Package: libgz-utils2
+Package: libgz-utils3
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-utils2 (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1)
-Replaces: libignition-utils2 (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1),
-          libignition-utils (<< 1.0.0)
 Multi-Arch: same
-Provides: libignition-utils
 Description: Gazebo Utils Library - Shared library
 
-Package: libgz-utils2-dev
+Package: libgz-utils3-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-utils2 (= ${binary:Version}),
-         libgz-cmake3-dev,
+Depends: libgz-utils3 (= ${binary:Version}),
+         libgz-cmake4-dev,
          ${misc:Depends}
-Breaks: libignition-utils2-dev (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1),
-        libignition-utils-dev (<< 1.0.0)
-Replaces: libignition-utils2-dev (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1),
-          libignition-utils-dev (<< 1.0.0)
 Multi-Arch: same
 Description: Gazebo Utils Library - Development files
 
-Package: libgz-utils2-cli-dev
+Package: libgz-utils3-cli-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-utils2-dev (= ${binary:Version}),
+Depends: libgz-utils3-dev (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-utils2-cli-dev (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1)
-Replaces: libignition-utils2-cli-dev (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1)
 Multi-Arch: same
 Description: Gazebo Utils Library - CLI Development files
 
-Package: libgz-utils2-dbg
+Package: libgz-utils3-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libgz-utils2 (= ${binary:Version}),
+     libgz-utils3 (= ${binary:Version}),
      ${misc:Depends}
-Breaks: libignition-utils2-dbg (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1)
-Replaces: libignition-utils2-dbg (<< 1.999.999+nightly+git20220630+1rd31f0939fcca1c2866424544de56348fe0318865-1)
 Multi-Arch: same
 Description: Gazebo Utils Library - Debugging symbols
-
-Package: libignition-utils2
-Depends: libgz-utils2, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: libignition-utils2-dev
-Depends: libgz-utils2-dev, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: libignition-utils2-cli-dev
-Depends: libgz-utils2-cli-dev, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.
-
-Package: libignition-utils2-dbg
-Depends: libgz-utils2-dbg, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional package
- This is a transitional package. It can safely be removed.

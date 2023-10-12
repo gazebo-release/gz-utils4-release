@@ -1,27 +1,6 @@
-gz-utils2 (2.1.0-1~jammy) jammy; urgency=medium
-
-  * gz-utils2 2.1.0-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Tue, 26 Sep 2023 14:41:55 -0500
-
-gz-utils2 (2.0.0-1~jammy) jammy; urgency=medium
-
-  * gz-utils2 2.0.0-1 release
-
- -- Nate Koenig <nate@openrobotics.org>  Thu, 22 Aug 2022 10:22:15 -0700
-
-gz-utils2 (2.0.0~pre2-1~jammy) jammy; urgency=medium
-
-  * gz-utils2 2.0.0~pre2-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Tue, 30 Aug 2022 14:45:30 -0700
-
-gz-utils2 (2.0.0~pre1-1~jammy) jammy; urgency=medium
-
-  * gz-utils2 2.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Tue, 30 Aug 2022 10:51:07 -0700
-
-gz-utils2 (1.999.999-1~jammy) jammy; urgency=medium
+gz-utils3 (2.999.999-1~jammy) jammy; urgency=medium
 
   * Stub to be removed after first entry
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 12 Oct 2023 17:40:34 -0500
+
