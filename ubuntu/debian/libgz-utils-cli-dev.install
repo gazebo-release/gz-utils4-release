@@ -1,4 +1,4 @@
 usr/include/*/*/*/utils/cli/*
 usr/include/*/*/*/utils/cli.hh
-usr/lib/*/pkgconfig/*-utils?-cli.pc
-usr/lib/*/cmake/*-utils?-cli/*
+usr/lib/*/pkgconfig/*-utils[0-99]-cli.pc
+usr/lib/*/cmake/*-utils[0-99]-cli/*

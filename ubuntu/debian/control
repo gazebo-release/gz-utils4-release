@@ -6,6 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 13),
                doxygen,
+               libspdlog-dev,
                libgz-cmake4-dev
 Vcs-Browser: https://github.com/gazebosim/gz-utils3-release
 Vcs-Git: https://github.com/gazebosim/gz-utils3-release
@@ -35,6 +36,24 @@ Depends: libgz-utils3-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - CLI Development files
+
+Package: libgz-utils3-log-dev
+Architecture: any
+Section: libdevel
+Depends: libgz-utils3-dev (= ${binary:Version}),
+         libgz-utils3-log (= ${binary:Version}),
+         libspdlog-dev,
+         ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo Utils Library - Log Development files
+
+Package: libgz-utils3-log
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo Utils Library - Log shared library
 
 Package: libgz-utils3-dbg
 Architecture: any

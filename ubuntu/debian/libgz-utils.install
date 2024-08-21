@@ -1,1 +1,1 @@
-usr/lib/*/*.so.*
+usr/lib/*/lib*-utils[0-99].so.*
