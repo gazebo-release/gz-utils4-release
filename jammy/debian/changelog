@@ -1,9 +1,3 @@
-gz-utils3 (3.0.0-3~jammy) jammy; urgency=medium
-
-  * gz-utils3 3.0.0-3 release
-
- -- Carlos Aguero <caguero@openrobotics.org>  Thu, 29 Aug 2024 00:50:50 +0200
-
 gz-utils3 (3.0.0~pre2-1~jammy) jammy; urgency=medium
 
   * gz-utils3 3.0.0~pre2-1 release
