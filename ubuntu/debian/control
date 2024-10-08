@@ -1,4 +1,4 @@
-Source: gz-utils3
+Source: gz-utils4
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -8,11 +8,11 @@ Build-Depends: cmake,
                doxygen,
                libspdlog-dev,
                libgz-cmake4-dev
-Vcs-Browser: https://github.com/gazebosim/gz-utils3-release
-Vcs-Git: https://github.com/gazebosim/gz-utils3-release
+Vcs-Browser: https://github.com/gazebosim/gz-utils4-release
+Vcs-Git: https://github.com/gazebosim/gz-utils4-release
 Homepage: https://github.com/gazebosim/gz-utils
 
-Package: libgz-utils3
+Package: libgz-utils4
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -20,34 +20,34 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Shared library
 
-Package: libgz-utils3-dev
+Package: libgz-utils4-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-utils3 (= ${binary:Version}),
+Depends: libgz-utils4 (= ${binary:Version}),
          libgz-cmake4-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Development files
 
-Package: libgz-utils3-cli-dev
+Package: libgz-utils4-cli-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-utils3-dev (= ${binary:Version}),
+Depends: libgz-utils4-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - CLI Development files
 
-Package: libgz-utils3-log-dev
+Package: libgz-utils4-log-dev
 Architecture: any
 Section: libdevel
-Depends: libgz-utils3-dev (= ${binary:Version}),
-         libgz-utils3-log (= ${binary:Version}),
+Depends: libgz-utils4-dev (= ${binary:Version}),
+         libgz-utils4-log (= ${binary:Version}),
          libspdlog-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Log Development files
 
-Package: libgz-utils3-log
+Package: libgz-utils4-log
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -55,12 +55,12 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Log shared library
 
-Package: libgz-utils3-dbg
+Package: libgz-utils4-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libgz-utils3 (= ${binary:Version}),
+     libgz-utils4 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Debugging symbols
