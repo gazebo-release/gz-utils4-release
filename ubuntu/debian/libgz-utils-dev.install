@@ -1,9 +1,9 @@
-usr/include/*/utils[0-99]/gz/utils/detail/*.hh
-usr/include/*/utils[0-99]/gz/utils/detail/*.h
-usr/include/*/utils[0-99]/*/utils.hh
-usr/include/*/utils[0-99]/*/utils/*.hh
-usr/lib/*/pkgconfig/*-utils[0-99].pc
-usr/lib/*/cmake/*-utils[0-99]/*-utils*
-usr/lib/*/cmake/*-utils[0-99]-all/*-utils*
-usr/lib/*/lib*-utils[0-99].so
+usr/include/*/utils*/gz/utils/detail/*.hh
+usr/include/*/utils*/gz/utils/detail/*.h
+usr/include/*/utils*/*/utils.hh
+usr/include/*/utils*/*/utils/*.hh
+usr/lib/*/pkgconfig/*-utils.pc
+usr/lib/*/cmake/*-utils/*-utils*
+usr/lib/*/cmake/*-utils-all/*-utils*
+usr/lib/*/lib*-utils.so
 usr/share/gz/*/*
