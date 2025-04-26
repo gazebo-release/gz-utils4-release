@@ -6,6 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 13),
                doxygen,
+               libcli11-dev,
                libspdlog-dev,
                libgz-cmake5-dev
 Vcs-Browser: https://github.com/gazebosim/gz-utils4-release
@@ -33,6 +34,7 @@ Package: libgz-utils4-cli-dev
 Architecture: any
 Section: libdevel
 Depends: libgz-utils4-dev (= ${binary:Version}),
+         libcli11-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - CLI Development files
