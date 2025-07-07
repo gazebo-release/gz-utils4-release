@@ -24,6 +24,7 @@ Description: Gazebo Utils Library - Shared library
 Package: libgz-utils4-dev
 Architecture: any
 Section: libdevel
+Provides: gz-jetty-utils
 Depends: libgz-utils4 (= ${binary:Version}),
          libgz-cmake5-dev,
          ${misc:Depends}
@@ -36,6 +37,7 @@ Section: libdevel
 Depends: libgz-utils4-dev (= ${binary:Version}),
          libcli11-dev,
          ${misc:Depends}
+Provides: gz-jetty-utils-cli
 Multi-Arch: same
 Description: Gazebo Utils Library - CLI Development files
 
@@ -46,6 +48,7 @@ Depends: libgz-utils4-dev (= ${binary:Version}),
          libgz-utils4-log (= ${binary:Version}),
          libspdlog-dev,
          ${misc:Depends}
+Provides: gz-jetty-utils-log
 Multi-Arch: same
 Description: Gazebo Utils Library - Log Development files
 
