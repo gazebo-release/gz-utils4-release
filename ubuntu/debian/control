@@ -66,3 +66,27 @@ Depends:
      ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Utils Library - Debugging symbols
+
+Package: gz-jetty-utils
+Depends: libgz-utils4-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-utils-cli
+Depends: libgz-utils4-cli-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-utils-log
+Depends: libgz-utils4-log-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
