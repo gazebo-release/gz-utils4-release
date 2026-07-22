@@ -90,3 +90,28 @@ Priority: optional
 Section: metapackages
 Description: alias package
  Provides a package for Jetty without exposing the version number.
+
+Package: libgz-jetty-utils-dev
+Depends: libgz-utils4-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: libgz-jetty-utils-cli-dev
+Depends: libgz-utils4-cli-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: libgz-jetty-utils-log-dev
+Depends: libgz-utils4-log-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
