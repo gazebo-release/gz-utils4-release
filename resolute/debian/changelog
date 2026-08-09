@@ -1,10 +1,16 @@
-gz-utils4 (4.0.0-1~resolute) noble; urgency=medium
+gz-utils4 (4.0.0-2~resolute) resolute; urgency=medium
+
+  * gz-utils4 4.0.0-2 release
+
+ -- Steve Peters <scpeters@intrinsic.ai>  Wed, 22 Jul 2026 22:11:00 +0000
+
+gz-utils4 (4.0.0-1~resolute) resolute; urgency=medium
 
   * gz-utils4 4.0.0-1 release
 
  -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 26 Sep 2025 11:21:33 -0500
 
-gz-utils4 (4.0.0~pre1-1~resolute) noble; urgency=medium
+gz-utils4 (4.0.0~pre1-1~resolute) resolute; urgency=medium
 
   * gz-utils4 4.0.0~pre1-1 release
 
